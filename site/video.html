@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видео</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Видеоплеер</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="photos.html">Фото</a>
+        <a href="audio.html">Аудио</a>
+        <a href="video.html" class="active">Видео</a>
+    </nav>
+
+    <div class="content">
+        <main>
+            <h2>Видеоплеер HTML5</h2>
+            <p>Используется тег &lt;video&gt; для воспроизведения видео.</p>
+
+            <div class="video-container">
+                <h3>Пример видеофайла</h3>
+                <div class="video-placeholder">
+                    [Здесь был бы видеоплеер]
+                    <p>Для работы нужно добавить файл в папку video/ и указать:</p>
+                    <code>
+                        &lt;video controls width="600"&gt;<br>
+                        &nbsp;&nbsp;&lt;source src="video/clip.mp4" type="video/mp4"&gt;<br>
+                        &lt;/video&gt;
+                    </code>
+                </div>
+            </div>
+        </main>
+
+        <aside>
+            <h3>Форматы видео</h3>
+            <ul>
+                <li>MP4 - самый распространенный</li>
+                <li>WebM - современный формат</li>
+                <li>AVI - старый формат</li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>2025 Видеоплеер</p>
+        <p><a href="index.html">На главную</a></p>
+    </footer>
+</body>
+</html>

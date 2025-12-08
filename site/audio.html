@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аудио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Аудиоплеер</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="photos.html">Фото</a>
+        <a href="audio.html" class="active">Аудио</a>
+        <a href="video.html">Видео</a>
+    </nav>
+
+    <div class="content">
+        <main>
+            <h2>Аудиоплеер HTML5</h2>
+            <p>Используется тег &lt;audio&gt; для воспроизведения звука.</p>
+
+            <div class="audio-container">
+                <h3>Пример аудиофайла</h3>
+                <div class="audio-placeholder">
+                    [Здесь был бы аудиоплеер]
+                    <p>Для работы нужно добавить файл в папку audio/ и указать:</p>
+                    <code>
+                        &lt;audio controls&gt;<br>
+                        &nbsp;&nbsp;&lt;source src="audio/sound.mp3" type="audio/mpeg"&gt;<br>
+                        &lt;/audio&gt;
+                    </code>
+                </div>
+            </div>
+        </main>
+
+        <aside>
+            <h3>Форматы аудио</h3>
+            <ul>
+                <li>MP3 - самый популярный</li>
+                <li>WAV - без сжатия</li>
+                <li>OGG - открытый формат</li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>2025 Аудиоплеер</p>
+        <p><a href="index.html">На главную</a></p>
+    </footer>
+</body>
+</html>
