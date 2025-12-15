@@ -68,7 +68,7 @@ main {
     background: white;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 aside {
@@ -76,7 +76,7 @@ aside {
     background: #ecf0f1;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Заголовки */
@@ -115,7 +115,6 @@ h3 {
     align-items: center;
     justify-content: center;
     margin: 10px 0;
-    border: 2px dashed #999;
     color: #666;
     font-style: italic;
 }
@@ -134,7 +133,6 @@ h3 {
     padding: 30px;
     text-align: center;
     margin: 15px 0;
-    border: 2px dashed #999;
     color: #666;
 }
 
